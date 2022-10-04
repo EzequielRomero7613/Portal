@@ -1,0 +1,244 @@
+:root {
+  --blue: #007bff;
+  --lightblue: #37bbed;
+  --blackgrey: #4b4c51;
+  --lightgray: rgba(169, 162, 162, 0.433);
+  --transparent: rgba(255, 255, 255, 0.05);
+}
+
+* {
+  margin: 0px;
+}
+
+@media (min-width: 320px) and (max-width: 750px) {
+  header {
+    background-color: var(--lightblue);
+  }
+
+  .logo {
+    display: flex;
+    justify-content: left;
+    padding: 35px;
+    width: 30em;
+  }
+
+  #carousel img {
+    width: 100% !important;
+    height: 170px !important;
+    background-color: var(--transparent);
+  }
+
+  .navegation {
+    background-color: var(--blackgrey);
+  }
+
+  #navigation {
+    display: none;
+  }
+
+  .tittle {
+    text-align: center;
+    font-size: 1.3rem;
+    margin: 10px;
+    padding: 5px;
+    font-weight: bold;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    margin: 15px;
+  }
+
+  .card-ciudadanos,
+  .card-empleadores {
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .card-ciudadanos img,
+  .card-empleadores img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: var(--blue);
+  }
+
+  .videos a {
+    text-decoration: none;
+    color: antiquewhite;
+  }
+
+  .videos a:hover {
+    text-decoration: none;
+  }
+
+  .cursos-ciudadanos,
+  .cursos-empleadores {
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .fa-circle-play {
+    color: white;
+  }
+
+  .cursos-ciudadanos,
+  .cursos-empleadores {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    height: 60px;
+    width: 80%;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: var(--blue);
+    margin: 20px;
+    padding: 10px;
+  }
+
+  .inscripcion-a-cursos {
+  }
+
+  .cursos-title {
+    font: 1em;
+  }
+
+  #ayuda {
+    width: 80% !important;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  #trabajo {
+    width: 90% !important;
+    margin-left: -1px;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .cursos-disponibles {
+    background-color: var(--lightgray);
+  }
+
+  .cursos-disponibles .container .row {
+    justify-content: center;
+  }
+
+  .cursos-disponibles .container .row .col-sm {
+    height: 100px;
+    width: 200px;
+    background-color: aliceblue;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: bolder;
+  }
+
+  .mas-contenido {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #boton {
+    border-radius: 30px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .mapas-de-oficinas {
+    background-color: var(--lightgray);
+    display: flex;
+  }
+
+  .agencias-territoriales {
+    width: 150px;
+    height: 150px;
+    justify-self: center;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .agencias-territoriales p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .fa-map-marked-alt {
+    padding: 10px;
+    margin: 5px 5px 5px 30px;
+    font-size: 50px;
+    color: var(--blue);
+  }
+
+  .oficinas-de-empleo {
+    width: 150px;
+    height: 150px;
+    justify-self: center;
+    background-color: aliceblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 5px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px gray;
+  }
+
+  .oficinas-de-empleo p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .fa-laptop-house {
+    padding: 10px;
+    margin: 5px 5px 5px 30px;
+    font-size: 50px;
+    color: var(--blue);
+  }
+
+  .redes-sociales {
+    padding: 15px;
+    height: auto;
+    width: auto;
+    background-color: var(--lightblue);
+  }
+
+  .redes-sociales i {
+    display: inline;
+    margin: 15px;
+    padding: 10px;
+    width: 50px;
+    font-size: 20px;
+    color: aliceblue;
+    border-radius: 50px;
+    background-color: var(--blue);
+    box-shadow: 5px 5px 5px var(--blue);
+  }
+}
+
+/*tamaño medio y grande
+
+#ayuda{
+    width: 80% !important;
+}
+
+#trabajo{
+    width: 84% !important;
+    margin-left: -1px;
+}
+
+
+
+*/
